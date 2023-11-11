@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Task Manager SOA Assignmnet 1.props" />
-</Project>
