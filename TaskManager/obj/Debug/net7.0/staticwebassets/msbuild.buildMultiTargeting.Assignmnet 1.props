@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Assignmnet 1.props" />
+</Project>
