@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Assignmnet_1</RootNamespace>
+    <RootNamespace>TaskManager</RootNamespace>
     <UserSecretsId>2eb193f5-1e11-4156-9959-45214eebd032</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
