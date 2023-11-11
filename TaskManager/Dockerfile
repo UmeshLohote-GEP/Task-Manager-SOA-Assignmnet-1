@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Assignmnet 1/Assignmnet 1.csproj", "Assignmnet 1/"]
-RUN dotnet restore "Assignmnet 1/Assignmnet 1.csproj"
+COPY ["TaskManager/Task Manager SOA Assignmnet 1.csproj", "TaskManager/"]
+RUN dotnet restore "TaskManager/Task Manager SOA Assignmnet 1.csproj"
 COPY . .
-WORKDIR "/src/Assignmnet 1"
-RUN dotnet build "Assignmnet 1.csproj" -c Release -o /app/build
+WORKDIR "/src/TaskManager"
+RUN dotnet build "Task Manager SOA Assignmnet 1.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Assignmnet 1.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Task Manager SOA Assignmnet 1.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Assignmnet 1.dll"]
+ENTRYPOINT ["dotnet", "Task Manager SOA Assignmnet 1.csproj.dll"]
