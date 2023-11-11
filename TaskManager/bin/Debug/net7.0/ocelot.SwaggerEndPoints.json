@@ -1,0 +1,12 @@
+[
+  {
+    "Key": "Tasks",
+    "Config": [
+      {
+        "Name": "Task API",
+        "Version": "v1",
+        "Url": "/tasks/swagger/v1/swagger.json"
+      }
+    ]
+  }
+]
