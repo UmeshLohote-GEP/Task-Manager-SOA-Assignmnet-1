@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task Manager SOA Assignmnet 1", "Assignmnet 1\Task Manager SOA Assignmnet 1.csproj", "{EB0307DB-9F1D-4BCF-B8CF-2C86560836A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task Manager SOA Assignmnet 1", "TaskManager\Task Manager SOA Assignmnet 1.csproj", "{EB0307DB-9F1D-4BCF-B8CF-2C86560836A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
